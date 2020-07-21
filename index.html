@@ -1,48 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Дезинтекс</title>
-</head>
-<body>
-   <header class="header">
-      <div class="header-wrapper">
-          <div class="first-column">
-         <div class="logo-wrapper">
-             <div class="logo">
-                 <img src="img/logo.svg" alt="" class="logo-img">
-             </div>
-             <span class="logo-text">
-                дезинфицирующий концентрат
-             </span>
-         </div>
+<html lang="ru">
 
-    <h1 class="header-title">Защитите свой дом<br>
-        от микробов и вирусов</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Дезинтекс</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="first-column">
+        <div class="logo-wrapper">
+          <div class="logo">
+            <img src="img/logo2.svg" alt="" class="logo-img">
+          </div>
+          <span class="logo-text">
+            дезинфицирующий концентрат
+          </span>
+        </div>
+
+        <h1 class="header-title">Защитите свой дом
+          от микробов и вирусов</h1>
 
         <div class="first-column_wrapper">
-            <img src="img/product.png" alt="product bottle" class="product-img">
-
-            <div class="product-benefits">
-                 <div class="benefits-item">Уничтожает до <span class="red-text">100%</span><br>
-                    опасных микроорганизмов</div>
-                 <div class="benefits-item red-text">Защищает поверхность<br>
-                    до 48 часов </div>
-                 <div class="benefits-item"><span class="red-text">Абсолютно безопасен</span><br>
-                    для человека и животных</div>
+          <div class="prouct-img_wrap">
+          <img src="img/product.png" alt="product bottle" class="product-img" width="270px" height="390px">
+          </div>
+          <div class="product-benefits">
+            <div class="benefits-item">
+              Уничтожает до 
+              <span class="red-text">100%</span>
+              опасных микроорганизмов
             </div>
+            <div class="benefits-item">
+              Защищает поверхность до 
+              <span class="red-text">48 часов</span>
+            </div>
+            <div class="benefits-item">
+              <span class="red-text">
+                Абсолютно безопасен
+              </span>
+              для человека и животных
+            </div>
+         </div>
         </div>
-    </div>
-    <div class="second-column">
-     <div class="offer">
-       <div class="offer-counter">
-           <h2 class="offer-title">Успей до конца акции</h2>
-           <div class="counter-wrapper">
+      </div>
+      <div class="second-column">
+        <div class="offer">
+          <div class="offer-counter">
+            <h2 class="offer-title">Успей до конца акции</h2>
+            <div class="counter-wrapper">
               <div class="counter-item">
-                  <span class="counter-numbers">00</span>
-                  <span class="counter-subtitle">часов</span>
+                <span class="counter-numbers">00</span>
+                <span class="counter-subtitle">часов</span>
               </div>
               <div class="counter-item">
                 <span class="counter-numbers">00</span>
@@ -52,124 +66,149 @@
                 <span class="counter-numbers">00</span>
                 <span class="counter-subtitle">секунд</span>
               </div>
-           </div>
+            </div>
+          </div>
+          <div class="offer-form">
+            <h2 class="offer-title">Специальная цена</h2>
+            <div class="price-wrapper">
+              <span class="new-price">149₽</span>
+              <span class="old-price">1901₽</span>
+            </div>
+
+            <form action="#" method="POST" class="order-form">
+              <div class="select-wrap">
+                <select class="input-field input_select" name="country">
+                  <option value="" hidden>Страна</option>
+                  <option value="Россия">Россия</option>
+                  <option value="Украина">Украина</option>
+                  <option value="Беларусь">Беларусь</option>
+                </select>
+              </div>
+              <br>
+              <input class="input-field input-name" required type="text" placeholder="Имя"><br>
+              <input class="input-field input-tel" placeholder="Номер телефона" type="tel" id="phone" name="phone"
+                required><br>
+              <input class="order-btn" type="submit" value="Заказать">
+            </form>
+
+          </div>
         </div>
-    <div class="offer-form">
+      </div>
+    </div>
+  </header>
+
+  <section class="middle">
+    <div class="center-block">
+
+      <div class="offer-counter middle-counter">
+        <h2 class="offer-title">Успей до конца акции</h2>
+        <div class="counter-wrapper">
+          <div class="counter-item">
+            <span class="counter-numbers">00</span>
+            <span class="counter-subtitle">часов</span>
+          </div>
+          <div class="counter-item">
+            <span class="counter-numbers">00</span>
+            <span class="counter-subtitle">минут</span>
+          </div>
+          <div class="counter-item">
+            <span class="counter-numbers">00</span>
+            <span class="counter-subtitle">секунд</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-wrapper">
+        <div class="product-small_wrap">
+        <img src="img/product_small.png" alt="small bottles" width="191px" height="206px" class="product-img_small">
+        </div>
+        <a href="#" class="order-btn middle-btn">Заказать</a>
+      </div>
+
+      <div class="middle-price">
         <h2 class="offer-title">Специальная цена</h2>
         <div class="price-wrapper">
-            <span class="new-price">149₽</span>
-            <span class="old-price">1901₽</span>
+          <span class="new-price">149₽</span>
+          <span class="old-price">1901₽</span>
         </div>
-
-    <form action="#" method="#" class="order-form">
-    <div class="select-wrap">
-     <select class="input-field input_select" name="country">
-         <option value="" hidden>Страна</option>
-         <option value="Россия">Россия</option>
-         <option value="Украина">Украина</option>
-         <option value="Беларусь">Беларусь</option>
-     </select>
-     </div>
-     <br>
-    <input class="input-field input-name"  required type="text" placeholder="Имя"><br>
-    <input class="input-field input-tel"  placeholder="Номер телефона" type="tel" id="phone" name="phone"
-       required><br>
-    <input class="order-btn" type="submit" value="Заказать">
-    </form>
-
+      </div>
     </div>
     </div>
-    </div>
-    </div>
-   </header>
+  </section>
 
-   <section class="middle">
-     <div class="center-block">
-
-        <div class="offer-counter middle-counter">
-            <h2 class="offer-title">Успей до конца акции</h2>
-            <div class="counter-wrapper">
-               <div class="counter-item">
-                   <span class="counter-numbers">00</span>
-                   <span class="counter-subtitle">часов</span>
-               </div>
-               <div class="counter-item">
-                 <span class="counter-numbers">00</span>
-                 <span class="counter-subtitle">минут</span>
-               </div>
-               <div class="counter-item">
-                 <span class="counter-numbers">00</span>
-                 <span class="counter-subtitle">секунд</span>
-               </div>
-            </div>
-        </div>
-
-         <div class="center-wrapper">
-           <img src="img/product_small.png" alt="small bottles" width="191px" height="206px" class="product-img_small">
-           <a href="#" class="order-btn middle-btn">Заказать</a>
-         </div>
-
-            <div class="middle-price">
-             <h2 class="offer-title">Специальная цена</h2>
-             <div class="price-wrapper">
-            <span class="new-price">149₽</span>
-            <span class="old-price">1901₽</span>
-           </div>
-            </div>
-         </div>
-     </div>
-   </section>
-   
-   <section class="surface">
-     <div class="center-circle">
-       <div class="surface-content">
-       <h2 class="surface-title">«Дезинтекс» подходит<br>
+  <section class="surface">
+    <div class="surface-content">
+      <h2 class="surface-title">«Дезинтекс» подходит<br>
         <span class="red-text">
           для дезинфекции любых поверхностей
         </span>
       </h2>
-    <div class="surface-wrap">
-      <div class="wrap-container">
-      <div class="surface-item">
-        <img src="img/floor.png" alt="" width="156px" height="156px">
-        <span class="surface-subtitle">Пол</span>
-      </div>
+      <div class="surface-wrap">
+        <div class="wrap-container">
+          <div class="surface-item additional-item">
+            <img src="img/floor.png" alt="" width="156px" height="156px">
+            <span class="surface-subtitle">Пол</span>
+          </div>
 
-      <div class="surface-item">
-        <img src="img/furniture.png" alt="" width="156px" height="156px">
-        <span class="surface-subtitle">Мебель</span>
-      </div>
+          <div class="surface-item additional-item">
+            <img src="img/furniture.png" alt="" width="156px" height="156px">
+            <span class="surface-subtitle">Мебель</span>
+          </div>
 
-      <div class="surface-item">
-        <img src="img/equip.png" alt="" width="156px" height="156px">
-        <span class="surface-subtitle">Различные<br>приборы<br>и оборудование 
-        </span>
+          <div class="surface-item additional-item">
+            <img src="img/equip.png" alt="" width="156px" height="156px">
+            <span class="surface-subtitle">Различные<br>приборы<br>и оборудование
+            </span>
+          </div>
+        </div>
+        <div class="wrap-container container_bottom">
+          <div class="surface-item additional-item">
+            <img src="img/walls.png" alt="" width="156px" height="156px">
+            <span class="surface-subtitle">Стены, двери<br>
+              и дверные ручки</span>
+          </div>
+
+          <div class="surface-item item_bottle">
+            <img src="img/one_bottle.png" alt="" width="96px" height="286px" class="item_bottle_img">
+          </div>
+
+          <div class="surface-item additional-item">
+            <img src="img/bathroom.png" alt="" width="156px" height="156px">
+            <span class="surface-subtitle">Санузел</span>
+          </div>
+        </div>
       </div>
-      </div>
-      <div class="wrap-container container_bottom">
-      <div class="surface-item">
-        <img src="img/walls.png" alt="" width="156px" height="156px">
-        <span class="surface-subtitle">Стены, двери<br>
-          и дверные ручки</span>
-      </div>
-     
-      <div class="surface-item item_bottle">
-        <img src="img/one_bottle.png" alt="" width="96px" height="286px">
-      
-      </div>
-      
-      <div class="surface-item">
-        <img src="img/bathroom.png" alt="" width="156px" height="156px">
-        <span class="surface-subtitle">Санузел</span>
-      </div>
-     </div>
     </div>
     </div>
-     </div>
-     </div>
 
-   </section>
-
-
+      <div class="slider">
+        <div class="slider-slide">
+          <img src="img/floor.png" alt="" width="148px" height="148px">
+          <span class="slider-text">Пол</span>
+        </div>
+        <div class="slider-slide">
+          <img src="img/furniture.png" alt="" width="148px" height="148px">
+          <span class="slider-text">Мебель</span>
+        </div>
+        <div class="slider-slide">
+          <img src="img/equip.png" alt="" width="148px" height="148px">
+          <span class="slider-text">Различные<br>приборы<br>и оборудование</span>
+        </div>
+        <div class="slider-slide">
+          <img src="img/walls.png" alt="" width="148px" height="148px">
+          <span class="slider-text">Стены, двери<br>
+            и дверные ручки</span>
+        </div>
+        <div class="slider-slide">
+          <img src="img/bathroom.png" alt="" width="148px" height="148px">
+          <span class="slider-text">Санузел</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
