@@ -242,7 +242,7 @@ a {
 	text-decoration-line: line-through;
 	font-size: 30px;
 	line-height: 29px;
-	color: rgba(66, 41, 41, 0.95);
+	color: rgba(0, 0, 0, 0.95);
 	margin-top: 10px;
 	padding-bottom: 12px;
 }
@@ -641,6 +641,7 @@ display: none;
 
    .surface-content{
 	width: 480px;
+	margin: 0 auto;
    }
 
    .surface-wrap{
@@ -649,8 +650,13 @@ display: none;
 	margin: 0 auto;
    }
 
+    .wrap-container{
+	 width: 194px;
+	}
+
    .item_bottle{
-	top: -8px;
+	position: absolute;
+	top: -6px;
 	left: 62px;
 	max-width: 68px;
 	
@@ -682,17 +688,17 @@ display: none;
 display: block;
 margin: 50px auto 0;
 width: 148px;
-height: 216px;
+height: 230px;
 }
 
 .slider-slide{
 width: 148px;
-height: 216px;
+height: 230px;
 text-align: center;
 }
 
 .slider-slide img{
-margin-bottom: 11px;
+margin: 0 auto 11px;
 }
 
 .slick-track{
@@ -704,7 +710,7 @@ display: flex;
 font-size: 0;
 width: 104px;
 justify-content: space-between;
-margin: 52px auto 0;
+margin: 32px auto 0;
 padding-left: 0;
 }
 
